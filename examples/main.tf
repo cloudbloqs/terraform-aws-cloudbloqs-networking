@@ -1,5 +1,5 @@
 module "networking" {
-  source = "../"
+  source = "git::https://github.com/cloudbloqs/terraform-aws-cloudbloqs-networking.git"
   vpc_config = {
     name       = "vpc-cloudbloq-dev-useast"
     cidr_block = "10.0.0.0/16"
